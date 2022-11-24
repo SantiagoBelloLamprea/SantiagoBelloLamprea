@@ -1,0 +1,43 @@
+.logo{
+    position: fixed;
+    left: 4em;
+    top: 0.8em;
+}
+header{
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+    color: blue;
+    border: 1px solid black;   
+    background-image: linear-gradient( rgb(94, 142, 182),rgb(20, 221, 228));
+} 
+.title{
+    position: relative;
+    text-align: center;
+    overflow: break-word;
+}
+.button{
+    font-weight: bold;
+    font-size: medium;
+    font-style:arial;
+    color: black;
+    background-image: linear-gradient( rgb(94, 142, 182),rgb(20, 221, 228));
+}
+
+#divR{
+    width: 2em;
+    height: 1.5em;
+    font-weight: bold;
+    font-style:arial;
+    font-size: 5em;
+    text-align: center;    
+    color: rgb(28, 170, 71);
+    background-color: rgb(191, 221, 58);
+}
+
+.Resp{
+    width: 30em;
+    height: 6em;
+    border: 1px solid black;
+    font-size: 2em;
+}

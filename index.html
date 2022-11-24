@@ -1,3 +1,44 @@
-<h1>Este es un sitio web de GitHub Pages</h1>
-<p>Y fue creado por Santiago Bello</p>
-<p><img src="https://www.snsmarketing.es/blog/wp-content/uploads/2016/02/gifanimado-794x675.gif"/></p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo para HDS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./assets/logo.jpg" alt="">
+        <h1 class="title">Bingo Hospital Divino Salvador de Sopó</h1>
+    </header>
+    <main>
+        <script src="./js/function.js"></script>
+        <h1>Balotas Jugadas</h1>
+        <section class="Resp">
+
+            <div id="divB"></div>
+            <div id="divI"></div>
+            <div id="divN"></div>
+            <div id="divG"></div>
+            <div id="divO"></div>
+        </section>
+
+        <section class="Buttoms">
+            <button onclick='generar(), mostrarDiv()' class="button">Generar Aleatorio</button>
+            <button onclick='genB(), mostrarDiv()'>Generar Letra B</button>
+            <button onclick='genI(), mostrarDiv()'>Generar Letra I</button>
+            <button onclick='genN(), mostrarDiv()'>Generar Letra N</button>
+            <button onclick='genG(), mostrarDiv()'>Generar Letra G</button>
+            <button onclick='genO(), mostrarDiv()'>Generar Letra O</button>
+            <button onclick='borrar(),mostrarDiv()' class="button">Borrar General</button>
+        </section>
+
+        <section class="Balota">
+            <div id="divR"></div>
+        </section>
+    
+    </main>
+</body>
+</html>
